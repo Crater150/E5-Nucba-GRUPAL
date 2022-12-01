@@ -1,0 +1,60 @@
+:root {
+    /*AGREGAR COLORES, FUENTES*/
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #000000e6;
+}
+
+/*HEADER*/
+
+header {
+       width: 100%;
+    height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:  0px 100px 0px 30px;
+
+}
+
+.logo  {
+width: 115px;
+margin-bottom: -15px;
+}
+
+.nav-list,
+.navbar {
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.navbar  {
+    gap: 50px;
+}
+
+.nav-p {
+    margin-left: -38px;
+    margin-right: 32px;
+    color: aliceblue;
+}
+
+a {
+    color: #cb7435;
+    font-size: large;
+}
+
+a :hover  {
+    font-size: larger;
+    color: #ff9a00;
+}
